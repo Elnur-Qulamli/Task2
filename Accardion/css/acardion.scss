@@ -1,0 +1,46 @@
+.containers{
+display: flex;
+justify-content: space-around;
+position: relative;
+ div{
+     width: 100px;
+     height: 100px;
+     border: 1px solid red;
+     margin-top: 2em;
+     opacity: 0.5;
+     background-color: red;
+ }
+ .bir:hover{
+     background-color: red;
+     opacity: 1;
+    box-shadow:8px 15px 30px green;
+ }
+ .iki:hover{
+    background-color: blue;
+    opacity: 1;
+   box-shadow:8px 15px 30px yellow;
+   transform: rotate(70deg);
+   border-radius: 15% 25% 15% 25%;
+   transition-duration: 3s;
+}
+.uch:hover{
+    background-color: red;
+    transform: rotate(50deg);
+    transition-duration: 3s;
+    opacity: 1;
+   box-shadow:8px 15px 30px green;
+}
+.dort:hover{
+    background-color: red;
+    transform: scale(2,3);
+    // opacity: 1;
+   box-shadow:8px 15px 30px green;
+}
+.bes:hover{
+    background-color: red;
+    margin-top: 5em;
+    transform: scale(2,3);
+    opacity: 1;
+   box-shadow:8px 15px 30px green;
+}
+}

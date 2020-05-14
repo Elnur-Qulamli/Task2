@@ -1,0 +1,66 @@
+.containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+
+.containers div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  margin-top: 2em;
+  opacity: 0.5;
+  background-color: red;
+}
+
+.containers .bir:hover {
+  background-color: red;
+  opacity: 1;
+  -webkit-box-shadow: 8px 15px 30px green;
+          box-shadow: 8px 15px 30px green;
+}
+
+.containers .iki:hover {
+  background-color: blue;
+  opacity: 1;
+  -webkit-box-shadow: 8px 15px 30px yellow;
+          box-shadow: 8px 15px 30px yellow;
+  -webkit-transform: rotate(70deg);
+          transform: rotate(70deg);
+  border-radius: 15% 25% 15% 25%;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+}
+
+.containers .uch:hover {
+  background-color: red;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+  opacity: 1;
+  -webkit-box-shadow: 8px 15px 30px green;
+          box-shadow: 8px 15px 30px green;
+}
+
+.containers .dort:hover {
+  background-color: red;
+  -webkit-transform: scale(2, 3);
+          transform: scale(2, 3);
+  -webkit-box-shadow: 8px 15px 30px green;
+          box-shadow: 8px 15px 30px green;
+}
+
+.containers .bes:hover {
+  background-color: red;
+  margin-top: 5em;
+  -webkit-transform: scale(2, 3);
+          transform: scale(2, 3);
+  opacity: 1;
+  -webkit-box-shadow: 8px 15px 30px green;
+          box-shadow: 8px 15px 30px green;
+}
+/*# sourceMappingURL=acardion.css.map */

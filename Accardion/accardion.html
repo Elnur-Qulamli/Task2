@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/acardion.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <h1>her birinde ayri ayri hover effektleri var</h1>
+
+        <section class="container">
+
+            <div class="containers">
+            <div class="bir"></div>
+            <div class="iki"></div>
+            <div class="uch"></div>
+            <div class="dort"></div>
+            <div class="bes"></div>
+        </div>
+
+
+<div class="carCatogry">
+            <select name="" id="cars">
+                <option value="Cars">Cars</option>
+                <option value="l200">Mitsubishi</option>
+                <option value="bmw">BMW</option>
+                <option value="oka">Oka</option>
+                <option value="prius">Prius</option>
+                <option value="cery">Cery</option>
+                <option value="toyota">Toyota</option>
+
+                
+            </select>
+            <button id="firstChild">Click et</button>
+                <p id="demo"></p>
+        </div>
+        
+        </section>
+
+        
+    </main>
+   <script>
+            document.getElementById("firstChild").addEventListener("click",function(){
+                document.getElementById("demo").innerHTML=document.getElementById("cars").firstElementChild.innerHTML;
+            })
+        </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
